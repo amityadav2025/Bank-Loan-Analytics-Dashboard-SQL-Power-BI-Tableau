@@ -103,15 +103,15 @@ Full field-level data dictionary available in [`Column_Mapping_Document.xlsx`](.
 ## 📂 Repository Structure
 ```
 ├── README.md
-├── Loan Project Problem Statement File   # Problem statement & solution writeup
-  ├── Dictionary
-          Bank_Data_Analystics.xlsx             # Raw dataset (65,000+ records, 53 fields)
-          Loan_Analytics.pptx                   # Project presentation & KPI documentation
-  ├── Documentation
-          LOAN DB.pbix
-          Loan DashBoard SS.png                 # Dashboard preview
-  ├── Solution writeup
-          Column_Mapping_Document.xlsx          # Field definitions & data dictionary
+├── Loan Project Problem Statement File     # Problem statement & solution writeup
+├── Dictionary/
+│   ├── Bank_Data_Analystics.xlsx           # Raw dataset (65,000+ records, 53 fields)
+│   └── Loan_Analytics.pptx                 # Project presentation & KPI documentation
+├── Documentation/
+│   ├── LOAN DB.pbix                        # Power BI dashboard file
+│   └── Loan DashBoard SS.png               # Dashboard preview screenshot
+└── Solution writeup/
+    └── Column_Mapping_Document.xlsx        # Field definitions & data dictionary
 ```
 
 ---
